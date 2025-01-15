@@ -8,16 +8,21 @@ Installation
 
 .. note::
     We **strongly recommend** using ``CuBIDS`` with environment management.
-    For this, we recommend `miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
-    (`miniforge <https://github.com/conda-forge/miniforge>`_ for M1 Chip Mac Machines).
+    For this, we recommend `miniforge <https://github.com/conda-forge/miniforge>`_.
 
-Once you've installed conda,
+Once you've installed miniforge,
 initialize a new conda environment (for example, named ``cubids``) as follows:
 
 .. code-block:: console
 
     $ conda create -n cubids python=3.12 pip
     $ conda activate cubids
+
+Or as follows:
+
+.. code-block:: console
+   $ mamba create -n cubids python=3.12 pip
+   $ mamba activate cubids
 
 You are now ready to install CuBIDS.
 You can do so in one of two ways.
